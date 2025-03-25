@@ -10,9 +10,9 @@ class ServerSideScripting(Document):
         self.count_records() 
         self.get_records_sql()  
  
-    def validate(self):   
-        self.get_value()                      
-        self.delete_document()       
+    def validate(self):    
+        self.get_value()                       
+        self.delete_document()        
          
     def check_if_exists(self):  
         result = frappe.db.exists("Server-Side Scripting", self.name) 
@@ -52,15 +52,15 @@ class ServerSideScripting(Document):
         doc.first_name = "John" 
         doc.last_name = "Doe" 
         doc.age = 30 
-        doc.dob = "1995-01-01" 
+        doc.dob = "1995-01-01"  
         doc.append('dependents', {                              
             'full_name': 'Jane Doe',
             'relation': 'Spouse',  
             'age': 25
-        }) 
+        })  
         
         frappe.msgprint("New document created.", alert=True)
-        doc.insert() 
+        doc.insert()  
     
     def delete_document(self):
         result = frappe.delete_doc("Server-Side Scripting", 'SS-00009') 
