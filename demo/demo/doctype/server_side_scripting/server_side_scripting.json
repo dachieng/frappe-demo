@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:SS-{#####}",
  "creation": "2025-03-24 15:15:03.520770",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -65,10 +66,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-24 15:46:50.792109",
+ "modified": "2025-03-25 08:31:13.679956",
  "modified_by": "Administrator",
  "module": "Demo",
  "name": "Server-Side Scripting",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
