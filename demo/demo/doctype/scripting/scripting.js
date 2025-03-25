@@ -22,7 +22,6 @@ frappe.ui.form.on("Scripting", {
       frappe.msgprint(`The  name of the dependant is ${row.name}`);
     }
   },
-
   validate(frm) {
     if (frm.doc.first_name && frm.doc.last_name) {
       frm.set_value("full_name", `${frm.doc.first_name} ${frm.doc.last_name}`);
@@ -37,6 +36,7 @@ frappe.ui.form.on("Scripting", {
       if (month < 0 || (month === 0 && today.getDate() < dob.getDate())) {
         age--;
       }
+
       frm.set_value("age", age);
     }
   },

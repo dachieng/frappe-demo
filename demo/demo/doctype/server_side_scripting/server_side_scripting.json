@@ -5,17 +5,67 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_b1l7"
+  "first_name",
+  "last_name",
+  "full_name",
+  "column_break_nezy",
+  "email",
+  "dob",
+  "age",
+  "section_break_aujk",
+  "dependents"
  ],
  "fields": [
   {
-   "fieldname": "section_break_b1l7",
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_nezy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Date of birth"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_aujk",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dependents",
+   "fieldtype": "Table",
+   "label": "Dependents",
+   "options": "Server Dependents"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-24 15:15:03.520770",
+ "modified": "2025-03-24 15:46:50.792109",
  "modified_by": "Administrator",
  "module": "Demo",
  "name": "Server-Side Scripting",
