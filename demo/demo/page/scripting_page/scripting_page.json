@@ -1,0 +1,19 @@
+{
+  "content": null,
+  "creation": "2025-03-26 08:20:43.669089",
+  "docstatus": 0,
+  "doctype": "Page",
+  "idx": 0,
+  "modified": "2025-03-26 08:20:43.669089",
+  "modified_by": "Administrator",
+  "module": "Demo",
+  "name": "scripting-page",
+  "owner": "Administrator",
+  "page_name": "scripting-page",
+  "roles": [],
+  "script": null,
+  "standard": "Yes",
+  "style": null,
+  "system_page": 0,
+  "title": "Server Scripting"
+}
